@@ -1,0 +1,32 @@
+# Compiled kernel modules
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.o
+modules.order
+Module.symvers
+
+# Build artifacts
+.tmp_versions/
+*.cmd
+.cache.mk
+
+# Editor and OS specific files
+.vscode/
+.idea/
+*~
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Debug files
+*.dmp
+*.log 
